@@ -47,20 +47,21 @@ footer{
     .header_box_left{
         display:none;
     }
-    .header_box.active{
+.header_box.active{
         width: 100%;
         height: 400px;
         background: #eee0d5;
         flex-direction: column;
         top: 70px;
+        z-index: 100;
     }
     .menu_icon{
         display: block;
         position: absolute;
         right: 40px;
         top: 40px;
-	margin-right:20px;
-    }
+        margin-right: 20px;
+        z-index: 1000;
     .box_social {
         bottom: 40px;
         right: 10px;
