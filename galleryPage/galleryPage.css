@@ -1,0 +1,73 @@
+.box_products{
+    width: 85%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+
+}
+.box_products__one{
+    width: 250px;
+    height: 300px;
+    border: 2px solid gold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px;
+}
+.box_products__one::before{
+    content: "";
+    width: 230px;
+    height: 280px;
+    border: 10px solid white;
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+
+}
+.img_product{
+    height: 210px;
+}
+.name_product{
+    font-size: 22px;
+    color: beige;
+    text-shadow: 1px 1px 1px black,
+    -1px 1px 1px black,
+    -1px -1px 1px black,
+    1px -1px 1px black;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.prise_product{
+    font-family: sans-serif;
+    margin: 5px;
+    font-size: 24px;
+    color: gold;
+    text-shadow: 1px 1px 1px black,
+    -1px 1px 1px black,
+    -1px -1px 1px black,
+    1px -1px 1px black;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.box_number_list{
+    width: 250px;
+    height: 50px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+.box_number_list a{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 18px;
+}
