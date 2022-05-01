@@ -59,6 +59,7 @@ footer{
         position: absolute;
         right: 40px;
         top: 40px;
+	margin-right:20px;
     }
     .box_social {
         bottom: 40px;
