@@ -5,7 +5,7 @@ main{
     min-height: 100vh;
 }
 .blox_content_one{
-    width: 90%;
+    width: 80%;
     height: 400px;
     display: flex;
     justify-content: space-around;
