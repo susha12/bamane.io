@@ -22,6 +22,7 @@ body{
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    min-width: 360px;
 }
 header,
 footer{
@@ -383,9 +384,9 @@ button{
     padding-left: 10px;
 	text-align:center;
 	display:block;
-	width:150px;
-	height:50px;
-	background:rgb(0, 140, 255);
+  width: 159px;
+  height: 50px;
+  background: rgb(231 227 228);
     transition: 0.2s;
 	border:0;
 	cursor:pointer;
