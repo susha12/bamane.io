@@ -18,12 +18,10 @@
   }
 body{
     background: #dcc5b3a8;
-    min-width: 390px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    min-width: 390px;
 }
 header,
 footer{
@@ -33,7 +31,6 @@ footer{
     margin: 0 auto; 
     border: 1px solid white;
     margin-bottom: 5px;
-    min-width: 390px;
     position: relative;
 }
 .header_box{
@@ -59,9 +56,9 @@ footer{
 }
 
 @media screen and (max-width: 1050px) {
-    body{
+    /* body{
         min-width: 390px;
-    }
+    } */
     .header_box_left{
         display:none;
     }
