@@ -23,7 +23,7 @@ body{
     justify-content: start;
     align-items: center;
     min-width: 360px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 header,
 footer{
