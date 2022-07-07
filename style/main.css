@@ -367,6 +367,9 @@ main{
 }
 
 /* text effects */
+.reset{
+z-index: 100;
+}
 p{
 	padding : 1em;
 	font-family : monospace;
@@ -379,6 +382,7 @@ p{
     margin: 0 auto;
     max-width: 1440px;
     height: auto;
+    z-index: 1;
 }
 button{
 	margin: 10px auto;
