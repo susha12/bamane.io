@@ -23,6 +23,7 @@ body{
     justify-content: start;
     align-items: center;
     min-width: 360px;
+    overflow: hidden;
 }
 header,
 footer{
@@ -381,7 +382,7 @@ p{
 }
 button{
 	margin: 10px auto;
-    padding-left: 10px;
+    padding-left: 5px;
 	text-align:center;
 	display:block;
   width: 170px;
