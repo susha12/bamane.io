@@ -131,7 +131,7 @@ a:hover{
 .footer_right,
 .footer_left,
 .footer_centr{
-    width: 250px;
+    width: 170px;
     height: 150px;
     display: flex;
     justify-content: space-around;
