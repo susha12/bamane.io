@@ -20,6 +20,8 @@ main{
     width: 500px;
     max-width: 40%;
     border-radius: 10px;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.194),
+    2px -2px 5px rgba(0, 0, 0, 0.445);
 }
 .content_one__textAreal{
     width:55%;
@@ -30,28 +32,33 @@ main{
     align-items: flex-start;
 }
 .one_textAreal__name{
-    font-family: 'main_fonts'; 
+    /* font-family: 'main_fonts';  */
     font-size: 22px;
     font-weight: 700;
     margin: 10px;
     height: 30px;
-    width: 450px;
+    width: auto;
 }
 .one_textAreal__text{
-    font-family: 'main_fonts'; 
+    /* font-family: 'main_fonts';  */
     font-size: 18px;
     margin: 10px;
-    height: 300px;
-    overflow-y: hidden;
+    /* height: 300px; */
+    overflow: hidden;
     width: 95%;
 }
 .btn {
     margin: 10px;
     border: none;
     padding: 5px 24px;
+    width: 120px;
+    min-height: 40px;
     font-size: 16px;
     position: relative;
     cursor: pointer;
+    background: white;
+    border-radius: 0px;
+    box-shadow: none;
   }
   .btn::before {
     transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -71,21 +78,48 @@ main{
     background: black;
     width: 100%;
   }
+  .video_aboutUs{
+    max-width: 500px;
+    max-width: 40%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.194),
+    2px -2px 5px rgba(0, 0, 0, 0.445);
+  }
   @media only screen and (max-width: 1050px) {
     .blox_content_one{
         width: 90%;
-        height: 700px;
+        height: auto;
         display: flex;
         flex-direction: column;
         padding: 0px;
 
        
     }
-    .content_one__img{
+    .content_one__img,
+    .video_aboutUs{
         max-width: 60%;
+        margin: 20px 0;
     }
     .content_one__textAreal{
         width:80%;
 
     }
+    .video_aboutUs{
+        margin: 20px 0;
+    }
+    .blox_content_one.two{
+      flex-direction: column-reverse;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .video_aboutUs{
+        width: 300px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.194),
+        2px -2px 5px rgba(0, 0, 0, 0.445);
+      }
   }
