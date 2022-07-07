@@ -272,15 +272,30 @@ var paragraph = new Gravity('text');
 var gravity = new Gravity('reset');
 
 var button = document.getElementById('reset');
-button.addEventListener('click',function(){
+// button.addEventListener('click',function(){
+//   if(gravity.animate){
+//     gravity.reset();
+//     paragraph.restart();
+//   }else{
+//     gravity.restart();
+
+//     paragraph.reset();
+//   }
+// });
+window.onload = startAnimation();
+button.onclick = startAnimation;
+function startAnimation(){
   if(gravity.animate){
     gravity.reset();
-    paragraph.reset();
+    paragraph.restart();
   }else{
     gravity.restart();
-    paragraph.restart();
+
+    paragraph.reset();
   }
-});
+};
+
+
 
 var render = function (time) { 
   requestAnimationFrame( render );
