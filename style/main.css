@@ -56,9 +56,9 @@ footer{
 }
 
 @media screen and (max-width: 1050px) {
-    /* body{
-        min-width: 390px;
-    } */
+    body{
+        min-width: 360px;
+    }
     .header_box_left{
         display:none;
     }
