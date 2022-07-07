@@ -87,8 +87,7 @@ footer{
     }
     .box_social ul{
         flex-wrap: wrap;
-
-        width: 200px;
+        width: 175px;
         height: 100px;
     }
   }
@@ -144,10 +143,10 @@ a:hover{
     top: 20px;
 }
 .footer_right ul svg{
-    width: 60px;
-    top: 10px;
-    position: relative;
-    height: 60px;
+  width: 55px;
+  top: 10px;
+  position: relative;
+  height: 55px;
 }
 .footer_right ul svg:hover{
     transform: scale(1.2);
@@ -384,7 +383,7 @@ button{
     padding-left: 10px;
 	text-align:center;
 	display:block;
-  width: 159px;
+  width: 170px;
   height: 50px;
   background: rgb(231 227 228);
     transition: 0.2s;
