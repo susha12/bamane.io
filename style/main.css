@@ -158,7 +158,8 @@ main{
     display: flex;
     align-items: flex-start;
     justify-content: start;
-    width: 90%;
+    min-width: 360px;
+    width: 100%;
 }
 .blox_wallpaper{
     width: 100%;
