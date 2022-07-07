@@ -117,9 +117,9 @@ footer .footer_box{
 .header_box_left ul{
     width: 400px;
 }
-main{
+/* main{
     min-height: 65vh;
-}
+} */
 a:hover{
     transition: ease 0.2s all;
     color: hotpink;
